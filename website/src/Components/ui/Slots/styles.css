@@ -1,0 +1,82 @@
+.table {
+    border-right: 2px solid;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    border-color: #70707090;
+    position: absolute;
+    bottom: -235px;
+    right: 365px;
+    margin-top: 3px;
+    transform: rotate(90deg);
+    width: 30%;
+  }  
+  
+  .tableCell {
+    border-top: 2px solid;
+    border-color: #70707090;
+    padding: 4px 6px;
+    height: 66px;
+    width: 37px;
+  }
+  
+  .tableCellGap {
+    border-top: 2px solid;
+    border-color: #70707090;
+    padding: 4px 6px;
+    height: 67px;
+    width: 37px;
+    margin-right: 55px;
+    margin-left: 55px;
+  }
+  
+  .entranceCell {
+    border-top: 2px solid;
+    border-color: transparent;
+    padding: 4px 6px;
+    height: 66px;
+    width: 39px;
+    margin-right: 55px;
+    margin-left: 55px;
+  }
+  
+  .cellText {
+    text-align: center;
+  }
+  
+  .available {
+    border-radius: 10px;
+    background-color: #E0E5F6;
+    height: 45px;
+    width: 90px;
+  }
+  
+  .reserved {
+    border-radius: 10px;
+    background-color: #707070;
+    height: 45px;
+    width: 90px;
+  }
+
+  .alert {
+    border-radius: 10px;
+    background-color: #FF886D;
+    height: 45px;
+    width: 90px;
+  }
+  
+  .reservedTitle {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    transform: rotate(-90deg);
+  }
+  
+  .availableTitle {
+    color: #9A9FB0;
+    font-weight: bold;
+    text-align: center;
+    transform: rotate(-90deg);
+    font-size: 16px;
+  }
+  

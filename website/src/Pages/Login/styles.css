@@ -1,0 +1,11 @@
+.parkingPic {
+    height: 100vh;
+    width: 55%;
+    object-fit: cover;
+}
+
+.loginContainer {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw; 
+}
