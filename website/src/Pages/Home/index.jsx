@@ -45,12 +45,12 @@ const Home = () => {
     if(userData.role == 2){
 
       response = await axios.post(
-        "http://127.0.0.1:8000/api/allReservations",
+        "http://16.170.35.122/api/allReservations",
         data
       );
     } else {
       response = await axios.post(
-        "http://127.0.0.1:8000/api/adminAllReservations",
+        "http://16.170.35.122/api/adminAllReservations",
         data
       );
     }

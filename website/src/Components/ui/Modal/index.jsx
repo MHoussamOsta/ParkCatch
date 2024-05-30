@@ -39,7 +39,7 @@ const Modal = ({
         };
 
         const response = await axios.post(
-          "http://127.0.0.1:8000/api/terminate",
+          "http://16.170.35.122/api/terminate",
           data
         );
         dispatch(clearSlots());
@@ -62,10 +62,10 @@ const Modal = ({
           token: userToken,
         };
 
-        let apiUrl = "http://127.0.0.1:8000/api/addAvail";
+        let apiUrl = "http://16.170.35.122/api/addAvail";
 
         if (userData.role == 1) {
-          apiUrl = "http://127.0.0.1:8000/api/adminAddAvail";
+          apiUrl = "http://16.170.35.122/api/adminAddAvail";
         }
 
         const response = await axios.post(apiUrl, data);
@@ -89,10 +89,10 @@ const Modal = ({
           token: userToken,
         };
 
-        let apiUrl = "http://127.0.0.1:8000/api/removeAvail";
+        let apiUrl = "http://16.170.35.122/api/removeAvail";
 
         if (userData.role == 1) {
-          apiUrl = "http://127.0.0.1:8000/api/adminRemoveAvail";
+          apiUrl = "http://16.170.35.122/api/adminRemoveAvail";
         }
 
         const response = await axios.post(apiUrl, data);
@@ -117,7 +117,7 @@ const Modal = ({
         };
 
         const response = await axios.post(
-          "http://127.0.0.1:8000/api/parkingDetails",
+          "http://16.170.35.122/api/parkingDetails",
           data
         );
         setInputValues([]);
@@ -142,7 +142,7 @@ const Modal = ({
         };
 
         const response = await axios.post(
-          "http://127.0.0.1:8000/api/addSupervisor",
+          "http://16.170.35.122/api/addSupervisor",
           data
         );
         setInputValues([]);
@@ -163,7 +163,7 @@ const Modal = ({
         };
 
         const response = await axios.post(
-          "http://127.0.0.1:8000/api/removeSupervisor",
+          "http://16.170.35.122/api/removeSupervisor",
           data
         );
         setInputValues([]);
@@ -185,7 +185,7 @@ const Modal = ({
         };
 
         const response = await axios.post(
-          "http://127.0.0.1:8000/api/ban",
+          "http://16.170.35.122/api/ban",
           data
         );
         setInputValues([]);

@@ -24,7 +24,7 @@ const Slots = () => {
         token: userData.token,
       };
       const response = await axios.post(
-        "http://127.0.0.1:8000/api/spots",
+        "http://16.170.35.122/api/spots",
         dataForm
       );
 
