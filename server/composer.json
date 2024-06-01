@@ -19,7 +19,7 @@
         "pusher/pusher-php-server": "^7.2",
         "thiagoalessio/tesseract_ocr": "^2.12",
         "yieldstudio/laravel-expo-notifier": "^0.0.7",
-        "yk/laravel-ocr": "^1.0",
+        "yk/laravel-ocr": "^1.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
