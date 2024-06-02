@@ -41,7 +41,7 @@ Route::group(["middleware" => "auth:api"], function () {
         Route::post('changePassword', [ClientController::class, 'changePassword']);
     });
 });
-Route::post('spots', [SupervisorController::class, 'getSpots']);
+Route::get('spots', [SupervisorController::class, 'getSpots']);
 Route::get("unauthorized", [AuthController::class, "unauthorized"])->name("unauthorized");
 Route::post('login', [AuthController::class, 'login']);
 Route::post('register',[AuthController::class,'register']);
